@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Oswald", "Arial Narrow", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --font-sans: "Inter", system-ui, sans-serif;
+
+  --color-ink: #090b0f;
+  --color-surface: #0e1117;
+  --color-panel: #131720;
+  --color-panel2: #181d28;
+  --color-line: #242b38;
+  --color-gold: #e8b33c;
+  --color-amber: #f5b301;
+  --color-blood: #d9483b;
+  --color-paper: #ece9df;
+  --color-muted: #8b93a4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-paper);
+  font-family: var(--font-sans);
+}
+
+/* ── caution tape strip ─────────────────────────────── */
+.tape {
+  background: repeating-linear-gradient(
+    -45deg,
+    #e8b33c 0 26px,
+    #0b0d11 26px 52px
+  );
+}
+
+/* ── film grain overlay ─────────────────────────────── */
+.grain {
+  position: relative;
+}
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.07;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/></filter><rect width='140' height='140' filter='url(%23n)' opacity='0.6'/></svg>");
+}
+
+/* ── rubber stamp text ──────────────────────────────── */
+.stamp {
+  text-shadow: 0 0 1px currentColor;
+  mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.12' numOctaves='3'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.9 0.1'/></filter><rect width='120' height='120' filter='url(%23n)'/></svg>");
+  mask-size: 120px;
+}
+
+/* ── scrollbar ──────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0e1117;
+}
+::-webkit-scrollbar-thumb {
+  background: #242b38;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e8b33c;
+}
+
+::selection {
+  background: #e8b33c;
+  color: #090b0f;
+}
