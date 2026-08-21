@@ -110,12 +110,12 @@ export const recordingLinks = [
   {
     label: "Diploma (I / II)",
     description: "Recorded sessions for every I & II Diploma module.",
-    url: "https://drive.google.com/drive/folders/1Fhen_PE_-CHxuqWoB6u5AJzF381dYyzY?usp=drive_link",
+    url: "https://drive.google.com/drive/folders/1nFEim-ZGFanTz-QwfHcsd4kFqslmcNm5?usp=drive_link",
   },
   {
     label: "Degree (III / IV)",
     description: "Recorded sessions for every III & IV Degree module.",
-    url: "https://drive.google.com/drive/folders/1nFEim-ZGFanTz-QwfHcsd4kFqslmcNm5?usp=drive_link",
+    url: "https://drive.google.com/drive/folders/1Fhen_PE_-CHxuqWoB6u5AJzF381dYyzY?usp=drive_link",
   },
 ];
 
