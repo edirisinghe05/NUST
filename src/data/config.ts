@@ -127,8 +127,8 @@ export const recordingLinks = [
 
 export const moduleDriveLinks: Record<string, string> = {
   // ── III & IV Degree ──────────────────────────────────────────
-  "BCJ 2204.3": "https://drive.google.com/", // Cultural Criminology
-  "BCJ 2103.3": "https://drive.google.com/", // Peace Conflict Studies
+  "BCJ 2204.3": "https://drive.google.com/drive/folders/1ZWVF5KZRNF3k7nbEd6xnTmCcrvaGAjuq?usp=drive_link", // Cultural Criminology
+  "BCJ 2103.3": "https://drive.google.com/drive/folders/1ZWVF5KZRNF3k7nbEd6xnTmCcrvaGAjuq?usp=drive_link", // Peace Conflict Studies
   "BCJ 2205.3": "https://drive.google.com/drive/folders/1cpmMaHoLiIPVf_ZT7jIcWZ21tBuUds4o", // Criminal Procedure
   "BCJ 2104.3": "https://drive.google.com/", // International Security Studies
   "BCJ 2105.3": "https://drive.google.com/", // Community Policing
