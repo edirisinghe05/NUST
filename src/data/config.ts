@@ -166,7 +166,7 @@ export const assignmentDriveLinks: Record<string, string> = {
   "BCJ 2201.3": "https://drive.google.com/file/d/1rRYJRO5pmcuU1_IHjfBqCrdpWbcOnUqS/view?usp=sharing", // Juvenile Delinquency
   "BCJ 2102.3": "https://drive.google.com/file/d/1GW05RXe_GuX-l2ESoqOxdZWJerJmtLyE/view?usp=sharing", // Modern Themes of Crime
   "BCJ 2203.3": "https://drive.google.com/file/d/1BAzKh1Bzl9fMFVNjPX053FelNAQL3Xay/view?usp=sharing", // International Terrorism
-  "BCJ 2202.3": "https://drive.google.com/", // Drug Abuse
+  "BCJ 2202.3": "https://docs.google.com/document/d/1VbUCCrKw2bqyjPFOd4q78EJ2qntfOqkt/edit?usp=drive_link&ouid=114741286099048908882&rtpof=true&sd=true", // Drug Abuse
   "BCJ 2101.3": "https://drive.google.com/", // Crime Mapping & Spatial Analysis (GIS)
 
   // ── I & II Diploma ───────────────────────────────────────────
