@@ -161,7 +161,7 @@ export const assignmentDriveLinks: Record<string, string> = {
   "BCJ 2204.3": "https://drive.google.com/file/d/1nQqSdM2fpvdxGul6_kvQH2raj4NWgku5/view?usp=sharing", // Cultural Criminology
   "BCJ 2103.3": "https://drive.google.com/file/d/1GLiHEVHT8D3HfduCFgMKPDoZ-Kugp8Y7/view?usp=sharing", // Peace Conflict Studies
   "BCJ 2205.3": "https://drive.google.com/", // Criminal Procedure
-  "BCJ 2104.3": "https://drive.google.com/", // International Security Studies
+  "BCJ 2104.3": "https://drive.google.com/file/d/1OYkvYMo7qTg8S7cAk5P8JK3QdgEOmvxE/view?usp=drive_link", // International Security Studies
   "BCJ 2105.3": "https://drive.google.com/file/d/1O_fOe7qKSdrybS5AlXfNsmyuJ8m0131m/view?usp=sharing", // Community Policing
   "BCJ 2201.3": "https://drive.google.com/file/d/1rRYJRO5pmcuU1_IHjfBqCrdpWbcOnUqS/view?usp=sharing", // Juvenile Delinquency
   "BCJ 2102.3": "https://drive.google.com/file/d/1GW05RXe_GuX-l2ESoqOxdZWJerJmtLyE/view?usp=sharing", // Modern Themes of Crime
