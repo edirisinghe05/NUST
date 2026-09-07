@@ -130,8 +130,8 @@ export const moduleDriveLinks: Record<string, string> = {
   "BCJ 2204.3": "https://drive.google.com/drive/folders/1ZWVF5KZRNF3k7nbEd6xnTmCcrvaGAjuq?usp=drive_link", // Cultural Criminology
   "BCJ 2103.3": "https://drive.google.com/drive/folders/1ZWVF5KZRNF3k7nbEd6xnTmCcrvaGAjuq?usp=drive_link", // Peace Conflict Studies
   "BCJ 2205.3": "https://drive.google.com/drive/folders/1cpmMaHoLiIPVf_ZT7jIcWZ21tBuUds4o", // Criminal Procedure
-  "BCJ 2104.3": "https://drive.google.com/", // International Security Studies
-  "BCJ 2105.3": "https://drive.google.com/", // Community Policing
+  "BCJ 2104.3": "https://drive.google.com/drive/folders/1cbRNrK-e7rZLwxOWn4lzuaOCmM__nUmc?usp=drive_link", // International Security Studies
+  "BCJ 2105.3": "https://drive.google.com/drive/folders/1gS6hiPVORPJ-Dqk4i_cglTDjLKcNRe_n?usp=drive_link", // Community Policing
   "BCJ 2201.3": "https://drive.google.com/drive/folders/1ZuorPLNZb8jrvNowJkKJiV0VKkl-bX56", // Juvenile Delinquency
   "BCJ 2102.3": "https://drive.google.com/drive/folders/13Xri4X3HuHRPH6ZLDmL7z0OkHtoBzlwf", // Modern Themes of Crime
   "BCJ 2203.3": "https://drive.google.com/", // International Terrorism
@@ -142,10 +142,10 @@ export const moduleDriveLinks: Record<string, string> = {
   "DCRIM 1101.03": "https://drive.google.com/drive/folders/1rZV4X6B8lEAufJBqGF5_P2W-F_gNBkOC", // Forensic Science
   "DCRIM 1102.03": "https://drive.google.com/drive/folders/1FJW6wRujcnkRjRljq4Nq3lQPL7VO6YlP", // Criminal Justice & Victim Protection
   "DCRIM 1103.03": "https://drive.google.com/drive/folders/1iFzm0i54tqsQSo-XZbacMpyDdoYtk5dD", // SOCO Investigation
-  "DCRIM 1104.03": "https://drive.google.com/", // Criminal Psychology
+  "DCRIM 1104.03": "https://drive.google.com/drive/folders/1wuYz4Wa-AEZqFG2iiFc7J3xYLA_CfPgp?usp=drive_link", // Criminal Psychology
   "DCRIM 1105.03": "https://drive.google.com/drive/folders/1hLiUC2ItjKVWATm0yq7tLkOoZfbhEcBU", // Scope of Criminology
   "DCRIM 1201.03": "https://drive.google.com/drive/folders/1IusqZ857ikWV4nSpPVJ3RgfBdgdk4XJM", // Crime and Addiction
-  "DCRIM 1202.03": "https://drive.google.com/", // Child, Women Abuse and Crime
+  "DCRIM 1202.03": "https://drive.google.com/drive/folders/1Fi0wleBZ7pG6qA-_uf1BwTz7aOcty27G?usp=drive_link", // Child, Women Abuse and Crime
   "DCRIM 1203.03": "https://drive.google.com/", // Criminal Law
   "DCRIM 1204.03": "https://drive.google.com/drive/folders/15BnOiSmHtxOWlK9qFNdsLLw8xGSc4-vQ", // Research Methodology I
 };
