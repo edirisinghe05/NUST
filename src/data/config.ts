@@ -203,6 +203,7 @@ export const assignmentDueDates: Record<string, string> = {
   "DCRIM 1104.03": "09-22", // Criminal Psychology
   "BCJ 2105.3": "09-23", // Community Policing
   "BCJ 2104.3": "09-21", // International Security Studies
+  "BCJ 2101.3": "09-30", // Crime Mapping & Spatial Analysis (GIS)
 };
 
 // ═══════════════════════════════════════════════════════════════
