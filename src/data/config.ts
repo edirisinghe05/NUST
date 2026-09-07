@@ -196,13 +196,13 @@ export const assignmentDueDates: Record<string, string> = {
   "DCRIM 1102.03": "08-24", // Criminal Justice & Victim Protection
   "DCRIM 1105.03": "08-25", // Scope of Criminology
   "DCRIM 1204.03": "09-15", // Research Methodology I
-  "BCJ 2201.3": "09-15", // Juvenile Delinquency
-  "BCJ 2203.3": "09-15", // International Terrorism
-  "DCRIM 1203.03": "09-15", // Criminal Law
-  "BCJ 2202.3": "09-15", // Drug Abuse
-  "DCRIM 1104.03": "09-15", // Criminal Psychology
-  "BCJ 2105.3": "09-15", // Community Policing
-  "BCJ 2104.3": "09-15", // International Security Studies
+  "BCJ 2201.3": "09-25", // Juvenile Delinquency
+  "BCJ 2203.3": "09-30", // International Terrorism
+  "DCRIM 1203.03": "10-07", // Criminal Law
+  "BCJ 2202.3": "10-02", // Drug Abuse
+  "DCRIM 1104.03": "09-22", // Criminal Psychology
+  "BCJ 2105.3": "09-23", // Community Policing
+  "BCJ 2104.3": "09-21", // International Security Studies
 };
 
 // ═══════════════════════════════════════════════════════════════
