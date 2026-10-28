@@ -12,7 +12,7 @@ import { timetable } from "../data/timetable";
 
 const MODULE_COUNTS = {
   diploma: timetable.filter((l) => l.program === "I & II Dip").length,
-  degree: timetable.filter((l) => l.program === "III & IV Degree").length,
+  degree: timetable.filter((l) => l.program === "V & VI Degree").length,
 };
 
 export default function RecordingsModal({ onClose }: { onClose: () => void }) {
