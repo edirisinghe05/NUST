@@ -5,12 +5,9 @@
 export type Day =
   | "Saturday"
   | "Sunday"
-  | "Monday"
-  | "Tuesday"
-  | "Thursday"
   | "Friday";
 
-export type Program = "III & IV Degree" | "I & II Dip";
+export type Program = "V & VI Degree";
 
 export interface Lecture {
   module: string;
@@ -26,48 +23,31 @@ export interface Lecture {
 export const WEEK_ORDER: Day[] = [
   "Saturday",
   "Sunday",
-  "Monday",
-  "Tuesday",
-  "Thursday",
   "Friday",
 ];
 
 export const DAY_INDEX: Record<Day, number> = {
   Sunday: 0,
-  Monday: 1,
-  Tuesday: 2,
-  Thursday: 4,
-  Friday: 5,
-  Saturday: 6,
+  Friday: 1,
+  Saturday: 2,
 };
 
 export const timetable: Lecture[] = [
-  // ── III & IV Degree · Saturday ─────────────────────────────
-  { module: "Cultural Criminology", code: "BCJ 2204.3", day: "Saturday", start: "08:00", end: "09:30", lecturer: "Mr. Dhanushka Nuwan", contact: "717 565 454", program: "III & IV Degree" },
-  { module: "Peace Conflict Studies", code: "BCJ 2103.3", day: "Saturday", start: "09:45", end: "11:15", lecturer: "Mr. Dhanushka Nuwan", contact: "717 565 454", program: "III & IV Degree" },
-  { module: "Criminal Procedure", code: "BCJ 2205.3", day: "Saturday", start: "15:45", end: "17:15", lecturer: "Mr. Chamara Wijerathna", contact: "703 050 804", program: "III & IV Degree" },
-  { module: "International Security Studies", code: "BCJ 2104.3", day: "Saturday", start: "19:00", end: "20:30", lecturer: "Mr. Chaminda Millawithanachchi", contact: "773 838 740", program: "III & IV Degree" },
-  { module: "Community Policing", code: "BCJ 2105.3", day: "Saturday", start: "20:45", end: "22:15", lecturer: "Mr. Chaminda Millawithanachchi", contact: "773 838 740", program: "III & IV Degree" },
+  // ── V & VI Degree · Saturday ─────────────────────────────
+  { module: "Advanced Criminology", code: "BCJ 2101.03", day: "Saturday", start: "08:00", end: "09:30", lecturer: "Mr. Dhanushka Nuwan", contact: "0717 565 454", program: "V & VI Degree" },
+  { module: "Criminal Justice", code: "BCJ 2104.03", day: "Saturday", start: "14:00", end: "15:30", lecturer: "Mr. Chamara Wijerathna", contact: "070 305 0804", program: "V & VI Degree" },
+  { module: "Law Enforcement Agencies", code: "BCJ 2102.03", day: "Saturday", start: "15:45", end: "17:15", lecturer: "Mr. Chamara Wijerathna", contact: "070 305 0804", program: "V & VI Degree" },
+  { module: "Physical Security Management", code: "BCJ 2205.03", day: "Saturday", start: "19:00", end: "20:30", lecturer: "Mr. Chaminda Millawithanachchi", contact: "077 383 8740", program: "V & VI Degree" },
+  { module: "Criminal Statistic", code: "BCJ 2105.03", day: "Saturday", start: "20:45", end: "22:15", lecturer: "Mr. Chaminda Millawithanachchi", contact: "077 383 8740", program: "V & VI Degree" },
 
-  // ── Sunday ──────────────────────────────────────────────────
-  { module: "Criminal Law", code: "DCRIM 1203.03", day: "Sunday", start: "07:00", end: "08:30", lecturer: "Mr. Chamaka Samarakoon", contact: "712 435 175", program: "I & II Dip" },
+  // ── Friday ──────────────────────────────────────────────────
+  { module: "Academic Writing", code: "BCJ 2203.03", day: "Friday", start: "19:00", end: "20:30", lecturer: "Ms. Samudika Rathnayake", contact: "xxxxxxxxxx", program: "V & VI Degree" },
 
-  // ── III & IV Degree · Sunday ───────────────────────────────
-  { module: "Juvenile Delinquency", code: "BCJ 2201.3", day: "Sunday", start: "08:00", end: "09:30", lecturer: "Mr. Pathum Nimanthaka", program: "III & IV Degree" },
-  { module: "Modern Themes of Crime", code: "BCJ 2102.3", day: "Sunday", start: "09:45", end: "11:15", lecturer: "Mr. Chamath Sandaru", program: "III & IV Degree" },
-  { module: "International Terrorism", code: "BCJ 2203.3", day: "Sunday", start: "11:30", end: "13:00", lecturer: "Mr. Chamaka Samarakoon", contact: "712 435 175", program: "III & IV Degree" },
-  { module: "Drug Abuse", code: "BCJ 2202.3", day: "Sunday", start: "14:00", end: "15:30", lecturer: "Mr. Colin Ariyarathna", contact: "776 142 860", program: "III & IV Degree" },
-  { module: "Crime Mapping & Spatial Analysis (GIS)", code: "BCJ 2101.3", day: "Sunday", start: "15:45", end: "17:15", lecturer: "Ms. Nuwani Munasinghe", program: "III & IV Degree" },
-
-  // ── I & II Diploma · Weekdays ──────────────────────────────
-  { module: "Forensic Science", code: "DCRIM 1101.03", day: "Monday", start: "19:00", end: "20:30", lecturer: "Mr. Chamara Wijerathna", contact: "703 050 804", program: "I & II Dip" },
-  { module: "Criminal Justice & Victim Protection", code: "DCRIM 1102.03", day: "Monday", start: "20:45", end: "22:15", lecturer: "Ms. Diani Hansika", contact: "710 446 115", program: "I & II Dip" },
-  { module: "SOCO Investigation", code: "DCRIM 1103.03", day: "Tuesday", start: "19:00", end: "20:30", lecturer: "Mr. Chamara Vijerathna", contact: "703 050 804", program: "I & II Dip" },
-  { module: "Criminal Psychology", code: "DCRIM 1104.03", day: "Tuesday", start: "20:45", end: "22:15", lecturer: "Mr. Chaminda Millawithana", contact: "773 838 740", program: "I & II Dip" },
-  { module: "Scope of Criminology", code: "DCRIM 1105.03", day: "Thursday", start: "19:00", end: "20:30", lecturer: "Mr. Dhanushka Nuwan", contact: "717 565 454", program: "I & II Dip" },
-  { module: "Crime and Addiction", code: "DCRIM 1201.03", day: "Thursday", start: "20:45", end: "22:15", lecturer: "Ms. Sineka Weerawardhana", program: "I & II Dip" },
-  { module: "Child, Women Abuse and Crime", code: "DCRIM 1202.03", day: "Friday", start: "20:45", end: "22:15", lecturer: "Mr. Buddhika Balachandra", program: "I & II Dip" },
-  { module: "Research Methodology I", code: "DCRIM 1204.03", day: "Sunday", start: "22:15", end: "23:15", lecturer: "Mr. Thushan Rangana", contact: "778 912 465", program: "I & II Dip" },
+  // ── V & VI Degree · Sunday ───────────────────────────────
+  { module: "Comparative Criminal Justice Systems", code: "BCJ 2201.03", day: "Sunday", start: "08:00", end: "10:15", lecturer: "Mr. Colin Ariyarathna", program: "V & VI Degree" },
+  { module: "Correction and Rehabilitation", code: "BCJ 2202.03", day: "Sunday", start: "09:45", end: "11:15", lecturer: "Mr. Chamath Sandaru", program: "V & VI Degree" },
+  { module: "Criminal Law II", code: "BCJ 2103.03", day: "Sunday", start: "11:30", end: "13:00", lecturer: "Mr. Chamaka Samarakoon", contact: "071 243 5175", program: "V & VI Degree" },
+  { module: "Disaster Management", code: "BCJ 2204.03", day: "Sunday", start: "15:45", end: "17:15", lecturer: "Mrs. Nuwani Munasinghe", contact: "xxxxxxxx", program: "V & VI Degree" },
 ];
 
 // ── helpers ──────────────────────────────────────────────────
