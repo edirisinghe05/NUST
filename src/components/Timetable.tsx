@@ -29,8 +29,7 @@ type ProgramFilter = Program | "All";
 const DAY_TABS: DayFilter[] = ["All", ...WEEK_ORDER];
 const PROGRAM_TABS: { value: ProgramFilter; label: string }[] = [
   { value: "All", label: "All Programs" },
-  { value: "III & IV Degree", label: "III & IV Degree" },
-  { value: "I & II Dip", label: "I & II Dip" },
+  { value: "V & VI Degree", label: "V & VI Degree" },
 ];
 
 function ProgramBadge({ program }: { program: Program }) {
