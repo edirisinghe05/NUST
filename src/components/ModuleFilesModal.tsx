@@ -24,8 +24,8 @@ const MODULES = timetable.filter(
 );
 
 const PROGRAMS: { value: Program; label: string }[] = [
-  { value: "III & IV Degree", label: "III & IV Degree" },
-  { value: "I & II Dip", label: "I & II Diploma" },
+  { value: "V & VI Degree" },
+  { value: "V & VI Degree" },
 ];
 
 export interface ModuleDrawerProps {
@@ -139,7 +139,7 @@ export default function ModuleFilesModal({
               <div key={program.value}>
                 <div className="mb-4 flex items-center gap-4">
                   <span className="flex items-center gap-2 font-mono text-xs uppercase tracking-[0.3em] text-gold">
-                    {program.value === "III & IV Degree" ? (
+                    {program.value === "V & VI Degree" ? (
                       <GraduationCap className="h-4 w-4" />
                     ) : (
                       <BookOpen className="h-4 w-4" />
