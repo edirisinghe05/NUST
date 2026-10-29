@@ -148,8 +148,8 @@ export const assignmentDriveLinks: Record<string, string> = {
   "BCJ 2102.03": "https://drive.google.com/", // Law Enforcement Agencies
   "BCJ 2205.03": "https://drive.google.com/", // Physical Security Management
   "BCJ 2105.03": "https://drive.google.com/", // Criminal Statistic
-  "BCJ 2201.03": "https://drive.google.com/", // Comparative Criminal Justice Systems
-  "BCJ 2202.03": "https://drive.google.com/", // Correction and Rehabilitation
+  "BCJ 2201.03": "https://drive.google.com/file/d/1vk0H-zJWtU16PSmnFYJGM23KA9p0syiU/view?usp=drive_link", // Comparative Criminal Justice Systems
+  "BCJ 2202.03": "https://drive.google.com/file/d/1cqTuPgUPY5c1nYTXNcnyp1qdye_OP1IA/view?usp=drive_link", // Correction and Rehabilitation
   "BCJ 2103.03": "https://drive.google.com/", // Criminal Law II
   "BCJ 2204.03": "https://drive.google.com/", // Disaster Management
   "BCJ 2203.03": "https://drive.google.com/", // Academic Writing
