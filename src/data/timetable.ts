@@ -28,8 +28,8 @@ export const WEEK_ORDER: Day[] = [
 
 export const DAY_INDEX: Record<Day, number> = {
   Sunday: 0,
-  Friday: 1,
-  Saturday: 2,
+  Friday: 5,
+  Saturday: 6,
 };
 
 export const timetable: Lecture[] = [
@@ -37,17 +37,17 @@ export const timetable: Lecture[] = [
   { module: "Advanced Criminology", code: "BCJ 2101.03", day: "Saturday", start: "08:00", end: "09:30", lecturer: "Mr. Dhanushka Nuwan", contact: "0717 565 454", program: "V & VI Degree" },
   { module: "Criminal Justice", code: "BCJ 2104.03", day: "Saturday", start: "14:00", end: "15:30", lecturer: "Mr. Chamara Wijerathna", contact: "070 305 0804", program: "V & VI Degree" },
   { module: "Law Enforcement Agencies", code: "BCJ 2102.03", day: "Saturday", start: "15:45", end: "17:15", lecturer: "Mr. Chamara Wijerathna", contact: "070 305 0804", program: "V & VI Degree" },
-  { module: "Physical Security Management", code: "BCJ 2205.03", day: "Saturday", start: "19:00", end: "20:30", lecturer: "Mr. Chaminda Millawithanachchi", contact: "077 383 8740", program: "V & VI Degree" },
-  { module: "Criminal Statistic", code: "BCJ 2105.03", day: "Saturday", start: "20:45", end: "22:15", lecturer: "Mr. Chaminda Millawithanachchi", contact: "077 383 8740", program: "V & VI Degree" },
-
-  // ── Friday ──────────────────────────────────────────────────
-  { module: "Academic Writing", code: "BCJ 2203.03", day: "Friday", start: "19:00", end: "20:30", lecturer: "Ms. Samudika Rathnayake", contact: "xxxxxxxxxx", program: "V & VI Degree" },
+  { module: "Physical Security Management", code: "BCJ 2205.03", day: "Saturday", start: "19:00", end: "20:30", lecturer: "Mr. Chaminda Millawithanarachchi", contact: "077 383 8740", program: "V & VI Degree" },
+  { module: "Criminal Statistic", code: "BCJ 2105.03", day: "Saturday", start: "20:45", end: "22:15", lecturer: "Mr. Chaminda Millawithanarachchi", contact: "077 383 8740", program: "V & VI Degree" },
 
   // ── V & VI Degree · Sunday ───────────────────────────────
   { module: "Comparative Criminal Justice Systems", code: "BCJ 2201.03", day: "Sunday", start: "08:00", end: "10:15", lecturer: "Mr. Colin Ariyarathna", program: "V & VI Degree" },
   { module: "Correction and Rehabilitation", code: "BCJ 2202.03", day: "Sunday", start: "09:45", end: "11:15", lecturer: "Mr. Chamath Sandaru", program: "V & VI Degree" },
   { module: "Criminal Law II", code: "BCJ 2103.03", day: "Sunday", start: "11:30", end: "13:00", lecturer: "Mr. Chamaka Samarakoon", contact: "071 243 5175", program: "V & VI Degree" },
   { module: "Disaster Management", code: "BCJ 2204.03", day: "Sunday", start: "15:45", end: "17:15", lecturer: "Mrs. Nuwani Munasinghe", contact: "xxxxxxxx", program: "V & VI Degree" },
+
+  // ── V & VI Degree · Friday ───────────────────────────────
+  { module: "Academic Writing", code: "BCJ 2203.03", day: "Friday", start: "19:00", end: "20:30", lecturer: "Ms. Samudika Rathnayake", contact: "xxxxxxxxxx", program: "V & VI Degree" },
 ];
 
 // ── helpers ──────────────────────────────────────────────────
