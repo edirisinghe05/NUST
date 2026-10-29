@@ -123,15 +123,15 @@ export const recordingLinks = [
 
 export const moduleDriveLinks: Record<string, string> = {
   // ── V & VI Degree ──────────────────────────────────────────
-  "BCJ 2101.03": "https://drive.google.com/", // Advanced Criminology
-  "BCJ 2104.03": "https://drive.google.com/", // Criminal Justice
+  "BCJ 2101.03": "https://drive.google.com/drive/folders/1YISsh6qcLfkQ-V4MEEP0sPzeEgnQuVtH?usp=drive_link", // Advanced Criminology
+  "BCJ 2104.03": "https://drive.google.com/drive/folders/16HIi2_7KNFY-TyLcIGvEpVhLWLr5xWm4", // Criminal Justice
   "BCJ 2102.03": "https://drive.google.com/", // Law Enforcement Agencies
   "BCJ 2205.03": "https://drive.google.com/", // Physical Security Management
   "BCJ 2105.03": "https://drive.google.com/", // Criminal Statistic
-  "BCJ 2201.03": "https://drive.google.com/", // Comparative Criminal Justice Systems
-  "BCJ 2202.03": "https://drive.google.com/", // Correction and Rehabilitation
+  "BCJ 2201.03": "https://drive.google.com/drive/folders/1TR0XpSn2Uo82ErIPICvNr7cbwSYDPnLO?usp=drive_link", // Comparative Criminal Justice Systems
+  "BCJ 2202.03": "https://drive.google.com/drive/folders/1Mw1nUsU5AZzwxqqaTqdM7t1Bk68rEV46?usp=drive_link", // Correction and Rehabilitation
   "BCJ 2103.03": "https://drive.google.com/", // Criminal Law II
-  "BCJ 2204.03": "https://drive.google.com/", // Disaster Management
+  "BCJ 2204.03": "https://drive.google.com/drive/folders/1ePt7tpQ_8A674fXPPr05KAZTHGYH8qdg?usp=drive_link", // Disaster Management
   "BCJ 2203.03": "https://drive.google.com/", // Academic Writing
 };
 
@@ -182,7 +182,7 @@ export const assignmentSubmissionLinks: Record<string, string> = {
   "BCJ 2205.03": "https://drive.google.com/", // Physical Security Management
   "BCJ 2105.03": "https://drive.google.com/", // Criminal Statistic
   "BCJ 2201.03": "https://drive.google.com/", // Comparative Criminal Justice Systems
-  "BCJ 2202.03": "https://drive.google.com/", // Correction and Rehabilitation
+  "BCJ 2202.03": "https://forms.gle/6TnECzopnST1ujfi8", // Correction and Rehabilitation
   "BCJ 2103.03": "https://drive.google.com/", // Criminal Law II
   "BCJ 2204.03": "https://drive.google.com/", // Disaster Management
   "BCJ 2203.03": "https://drive.google.com/", // Academic Writing
