@@ -111,7 +111,7 @@ export const recordingLinks = [
   {
     label: "V & VI Degree",
     description: "Recorded sessions for every V & VI Degree module.",
-    url: "https://drive.google.com/", // ← PASTE YOUR LINK HERE
+    url: "https://drive.google.com/drive/folders/1DFQGCi184QZWAlpKRvx9GmCpyRQcRBtM?usp=drive_link", // ← PASTE YOUR LINK HERE
   },
 ];
 
