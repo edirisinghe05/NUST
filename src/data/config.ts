@@ -64,7 +64,7 @@ export const driveLinks: DriveLink[] = [
   {
     label: "Lecture Recordings",
     description: "Recorded sessions for V & VI Degree.",
-    url: "https://drive.google.com/drive/folders/1DFQGCi184QZWAlpKRvx9GmCpyRQcRBtM?usp=drive_link", // ← fallback only; the 2 folders are set below
+    url: "https://drive.google.com/", // ← fallback only; the 2 folders are set below
     icon: "video",
     openRecordings: true, // ← this button opens the 2 recording folders
   },
@@ -111,7 +111,7 @@ export const recordingLinks = [
   {
     label: "V & VI Degree",
     description: "Recorded sessions for every V & VI Degree module.",
-    url: "https://drive.google.com/drive/folders/1DFQGCi184QZWAlpKRvx9GmCpyRQcRBtM?usp=drive_link", // ← PASTE YOUR LINK HERE
+    url: "https://drive.google.com/", // ← PASTE YOUR LINK HERE
   },
 ];
 
@@ -148,8 +148,8 @@ export const assignmentDriveLinks: Record<string, string> = {
   "BCJ 2102.03": "https://drive.google.com/", // Law Enforcement Agencies
   "BCJ 2205.03": "https://drive.google.com/", // Physical Security Management
   "BCJ 2105.03": "https://drive.google.com/", // Criminal Statistic
-  "BCJ 2201.03": "https://drive.google.com/file/d/1vk0H-zJWtU16PSmnFYJGM23KA9p0syiU/view?usp=sharing", // Comparative Criminal Justice Systems
-  "BCJ 2202.03": "https://drive.google.com/file/d/1cqTuPgUPY5c1nYTXNcnyp1qdye_OP1IA/view?usp=sharing", // Correction and Rehabilitation
+  "BCJ 2201.03": "https://drive.google.com/", // Comparative Criminal Justice Systems
+  "BCJ 2202.03": "https://drive.google.com/", // Correction and Rehabilitation
   "BCJ 2103.03": "https://drive.google.com/", // Criminal Law II
   "BCJ 2204.03": "https://drive.google.com/", // Disaster Management
   "BCJ 2203.03": "https://drive.google.com/", // Academic Writing
@@ -163,8 +163,8 @@ export const assignmentDriveLinks: Record<string, string> = {
 // ═══════════════════════════════════════════════════════════════
 
 export const assignmentDueDates: Record<string, string> = {
-  // Add due dates here once they are announced, e.g.:
-  // "BCJ 2101.03": "11-15", // Advanced Criminology
+  "BCJ 2201.03": "11-20", // Comparative Criminal Justice Systems
+  "BCJ 2202.03": "11-24", // Correction and Rehabilitation
 };
 
 // ═══════════════════════════════════════════════════════════════
@@ -217,4 +217,7 @@ export const moduleSubFolders: Record<string, { label: string; url: string }[]> 
 //  (no assignment exists for them, so no link is needed).
 // ═══════════════════════════════════════════════════════════════
 
-export const noAssignmentModules: string[] = [];
+export const noAssignmentModules: string[] = [
+  "BCJ 2104.03", // Criminal Justice
+  "BCJ 2102.03", // Law Enforcement Agencies
+];
