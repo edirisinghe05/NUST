@@ -64,7 +64,7 @@ export const driveLinks: DriveLink[] = [
   {
     label: "Lecture Recordings",
     description: "Recorded sessions for V & VI Degree.",
-    url: "https://drive.google.com/", // ← fallback only; the 2 folders are set below
+    url: "https://drive.google.com/drive/folders/1DFQGCi184QZWAlpKRvx9GmCpyRQcRBtM?usp=drive_link", // ← fallback only; the 2 folders are set below
     icon: "video",
     openRecordings: true, // ← this button opens the 2 recording folders
   },
