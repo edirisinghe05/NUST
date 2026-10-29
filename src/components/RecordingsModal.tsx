@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 import {
   ArrowUpRight,
-  BookOpen,
   GraduationCap,
   Video,
   X,
@@ -10,10 +9,7 @@ import {
 import { recordingLinks } from "../data/config";
 import { timetable } from "../data/timetable";
 
-const MODULE_COUNTS = {
-  diploma: timetable.filter((l) => l.program === "I & II Dip").length,
-  degree: timetable.filter((l) => l.program === "V & VI Degree").length,
-};
+const MODULE_COUNT = timetable.filter((l) => l.program === "V & VI Degree").length;
 
 export default function RecordingsModal({ onClose }: { onClose: () => void }) {
   useEffect(() => {
@@ -60,7 +56,7 @@ export default function RecordingsModal({ onClose }: { onClose: () => void }) {
               Exhibit 01 · Video Evidence
             </p>
             <h3 className="truncate font-display text-xl font-bold uppercase tracking-wide sm:text-2xl">
-              Lecture Recordings — 2 folders
+              Lecture Recordings — {recordingLinks.length} folder{recordingLinks.length === 1 ? "" : "s"}
             </h3>
           </div>
           <button
@@ -76,9 +72,7 @@ export default function RecordingsModal({ onClose }: { onClose: () => void }) {
         <div className="flex-1 overflow-y-auto px-5 py-6 sm:px-6">
           <div className="grid gap-4 sm:grid-cols-2">
             {recordingLinks.map((rec, i) => {
-              const isDegree = i === 1;
-              const count = isDegree ? MODULE_COUNTS.degree : MODULE_COUNTS.diploma;
-              const Icon = isDegree ? GraduationCap : BookOpen;
+              const Icon = GraduationCap;
               return (
                 <motion.a
                   key={rec.label}
@@ -97,7 +91,7 @@ export default function RecordingsModal({ onClose }: { onClose: () => void }) {
                       <Icon className="h-6 w-6" />
                     </span>
                     <span className="rounded-sm border border-line bg-panel2 px-2 py-1 font-mono text-[10px] uppercase tracking-[0.2em] text-muted">
-                      {count} modules
+                      {MODULE_COUNT} modules
                     </span>
                   </div>
 
@@ -122,7 +116,7 @@ export default function RecordingsModal({ onClose }: { onClose: () => void }) {
         {/* footer hint */}
         <div className="border-t border-line bg-panel px-5 py-3 sm:px-6">
           <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-muted/70">
-            Each button opens that program's recording folder · edit links in{" "}
+            Opens the V & VI Degree recording folder · edit links in{" "}
             <span className="text-gold/80">src/data/config.ts</span>
           </p>
         </div>

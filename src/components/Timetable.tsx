@@ -33,7 +33,7 @@ const PROGRAM_TABS: { value: ProgramFilter; label: string }[] = [
 ];
 
 function ProgramBadge({ program }: { program: Program }) {
-  const degree = program === "III & IV Degree";
+  const degree = program === "V & VI Degree";
   return (
     <span
       className={`inline-flex items-center gap-1.5 rounded-sm border px-2 py-1 font-mono text-[10px] uppercase tracking-[0.15em] ${

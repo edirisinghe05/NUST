@@ -80,7 +80,7 @@ function NextLectureCard() {
 const STATS = [
   { value: String(stats.modules).padStart(2, "0"), label: "Modules" },
   { value: String(stats.lecturers).padStart(2, "0"), label: "Lecturers" },
-  { value: "04", label: "Semesters Live" },
+  { value: "V–VI", label: "Degree Semester" },
   { value: String(stats.days).padStart(2, "0"), label: "Lecture Days" },
 ];
 

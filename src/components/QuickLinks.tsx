@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import {
   driveLinks,
+  recordingLinks,
   moduleDriveLinks,
   moduleSideLinks,
   moduleSubFolders,
@@ -81,7 +82,7 @@ export default function QuickLinks() {
               : opensAssignments
                 ? `${Object.keys(assignmentDriveLinks).length} folders`
                 : opensRecordings
-                  ? "2 folders"
+                  ? `${recordingLinks.length} folder${recordingLinks.length === 1 ? "" : "s"}`
                   : null;
             const action = opensModules
               ? "Browse module files"

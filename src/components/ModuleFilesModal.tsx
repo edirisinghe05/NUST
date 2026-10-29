@@ -18,18 +18,17 @@ export function isUrlLinked(url: string | undefined): boolean {
   return !!url && url.trim() !== "" && url.trim() !== "https://drive.google.com/";
 }
 
-/** Unique modules in official-sheet order (Degree Sat/Sun, then Diploma). */
+/** Unique modules in official-sheet order. */
 const MODULES = timetable.filter(
   (l, i, arr) => arr.findIndex((x) => x.code === l.code) === i
 );
 
 const PROGRAMS: { value: Program; label: string }[] = [
-  { value: "V & VI Degree" },
-  { value: "V & VI Degree" },
+  { value: "V & VI Degree", label: "V & VI Degree" },
 ];
 
 export interface ModuleDrawerProps {
-  /** Gold header title, e.g. "Module Files — 19 on record" */
+  /** Gold header title, e.g. "Module Files — 10 on record" */
   title: string;
   /** Small mono eyebrow above the title, e.g. "Lecture Notes & Slides" */
   eyebrow: string;
