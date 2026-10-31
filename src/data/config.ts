@@ -143,7 +143,7 @@ export const moduleDriveLinks: Record<string, string> = {
 
 export const assignmentDriveLinks: Record<string, string> = {
   // ── V & VI Degree ──────────────────────────────────────────
-  "BCJ 2101.03": "https://drive.google.com/", // Advanced Criminology
+  "BCJ 2101.03": "https://drive.google.com/file/d/1ZxHjlAqYl8xo-9bp8Tv4X9_k8MfRHZ9O/view?usp=sharing", // Advanced Criminology
   "BCJ 2104.03": "https://drive.google.com/", // Criminal Justice
   "BCJ 2102.03": "https://drive.google.com/", // Law Enforcement Agencies
   "BCJ 2205.03": "https://drive.google.com/", // Physical Security Management
@@ -165,6 +165,7 @@ export const assignmentDriveLinks: Record<string, string> = {
 export const assignmentDueDates: Record<string, string> = {
   "BCJ 2201.03": "11-20", // Comparative Criminal Justice Systems
   "BCJ 2202.03": "11-24", // Correction and Rehabilitation
+  "BCJ 2101.03": "12-10", // Advanced Criminology
 };
 
 // ═══════════════════════════════════════════════════════════════
