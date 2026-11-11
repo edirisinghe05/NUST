@@ -163,7 +163,7 @@ export const assignmentDriveLinks: Record<string, string> = {
 // ═══════════════════════════════════════════════════════════════
 
 export const assignmentDueDates: Record<string, string> = {
-  "BCJ 2201.03": "11-20", // Comparative Criminal Justice Systems
+  "BCJ 2201.03": "12-10", // Comparative Criminal Justice Systems
   "BCJ 2202.03": "11-24", // Correction and Rehabilitation
   "BCJ 2101.03": "12-10", // Advanced Criminology
 };
