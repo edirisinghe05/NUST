@@ -132,7 +132,7 @@ export const moduleDriveLinks: Record<string, string> = {
   "BCJ 2202.03": "https://drive.google.com/drive/folders/1Mw1nUsU5AZzwxqqaTqdM7t1Bk68rEV46?usp=drive_link", // Correction and Rehabilitation
   "BCJ 2103.03": "https://drive.google.com/", // Criminal Law II
   "BCJ 2204.03": "https://drive.google.com/drive/folders/1ePt7tpQ_8A674fXPPr05KAZTHGYH8qdg?usp=drive_link", // Disaster Management
-  "BCJ 2203.03": "https://drive.google.com/", // Academic Writing
+  "BCJ 2203.03": "https://drive.google.com/drive/folders/1ZVlTKneNeWyDiBXYCx4W4Mn5pMl6Z4lT?usp=sharing", // Academic Writing
 };
 
 // ═══════════════════════════════════════════════════════════════
